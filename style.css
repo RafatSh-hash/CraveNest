@@ -1,0 +1,30 @@
+body {
+
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#header {
+
+    background-image: url('./Asset/Images/banner1.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+nav {
+
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Adjust the alpha value (0.8) for desired transparency */
+    backdrop-filter: blur(5px);
+    /* Optional: Apply a slight blur for a frosted glass effect */
+
+}

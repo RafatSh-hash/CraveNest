@@ -5,20 +5,94 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./UIKit/uikit.min.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
   <title>Crave Nest</title>
   <link rel="stylesheet" href="./output/tailwind.css" />
 </head>
 
 <body>
-  <div class="text-red-500">Hello</div>
+  <!-- headerSection -->
 
-  <p class="text-green-500">Green</p>
+  <header class="relative">
+    <!-- navSection -->
+
+    <nav class="flex absolute w-full justify-between px-5 z-10">
+      <div class="h-14">
+        <img class="w-full h-full" src="./Asset/Images/Logo.png" alt="">
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="text-white font-semibold hidden sm:flex">
+          <a href="#" class="mx-2" target="_blank">Home</a>
+          <a href="#" class="mx-2" target="_blank">Our Menu</a>
+          <a href="#" class="mx-2" target="_blank">Our Shop</a>
+          <a href="#" class="mx-2 lg:inline md:hidden sm:hidden max-[425px]:hidden" target="_blank">Contact Us</a>
+          <a href="#" class="mx-2 lg:inline md:hidden sm:hidden max-[425px]:hidden" target="_blank">Dashboard</a>
+          <a href="#" class="mx-2" target="_blank">Sign Out</a>
+        </div>
+        <div class="w-10 h-10 mx-3 lg:block md:block hidden">
+          <img class="w-full h-full" src="./Asset/Images/user.png" alt="">
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hamburger Menu -->
+    <button id="hamburger" class="lg:hidden md:hidden sm:flex absolute right-2 p-2 z-20">
+      <div class="w-10 h-10">
+        <img class="w-full h-full" src="./Asset/Images/burger.png" alt="">
+      </div>
+    </button>
+
+    <!-- Navigation Overlay -->
+    <div id="navOverlay"
+      class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 justify-center items-center z-10">
+      <div class="text-white font-semibold text-center navA">
+        <a href="#" class="block my-3 mt-2" target="_blank">Home</a>
+        <a href="#" class="block my-3 mt-2" target="_blank">Our Menu</a>
+        <a href="#" class="block my-3 mt-2" target="_blank">Our Shop</a>
+        <a href="#" class="block my-3 mt-2" target="_blank">Contact Us</a>
+        <a href="#" class="block my-3 mt-2" target="_blank">Dashboard</a>
+        <a href="#" class="block my-3 mt-2" target="_blank">Sign Out</a>
+      </div>
+    </div>
+
+    <!-- carouselSection -->
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+      uk-slideshow="min-height: 300; max-height: 600; animation: push">
+
+      <ul class="uk-slideshow-items">
+        <li>
+          <div class="">
+            <img class="" src="./Asset/Images/banner1.png" alt="" uk-cover>
+          </div>
+        </li>
+        <li>
+          <img src="./Asset/Images/banner2.png" alt="" uk-cover>
+        </li>
+        <li>
+          <img src="./Asset/Images/banner3.png" alt="" uk-cover>
+        </li>
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+        uk-slideshow-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+        uk-slideshow-item="next"></a>
+
+    </div>
+
+  </header>
 
 
 
   <script src="./UIKit/uikit.min.js"></script>
+  <script src="./utility.js"></script>
 </body>
 
 </html>
