@@ -37,6 +37,15 @@ nav {
 }
 
 .order-card:hover img {
-    transform: rotate(20deg) scale(1.5);
+    transform: rotate(2deg) scale(1.1);
 
+
+}
+
+#craveNestContainer {
+
+
+    background-image: url('./Asset/Images/banner4.png');
+    background-size: cover;
+    background-position: center;
 }
