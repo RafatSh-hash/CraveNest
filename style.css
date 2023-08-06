@@ -63,3 +63,8 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+.uk-slideshow-items {
+    height: 300px;
+    /* Adjust the height as needed */
+}
