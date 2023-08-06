@@ -49,3 +49,10 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+#discountContainer {
+
+    background-image: url('./Asset/Images/banner2.png');
+    background-size: cover;
+    background-position: center;
+}
