@@ -8,7 +8,7 @@ body {
     background-image: url('./Asset/Images/banner1.png');
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 a {
@@ -26,5 +26,17 @@ nav {
     /* Adjust the alpha value (0.8) for desired transparency */
     backdrop-filter: blur(5px);
     /* Optional: Apply a slight blur for a frosted glass effect */
+
+}
+
+.order-card div {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.order-card:hover img {
+    transform: rotate(20deg) scale(1.5);
 
 }
