@@ -65,6 +65,12 @@ nav {
     background-position: center;
 }
 
+#menuContainer1 {
+    background-image: url('./Asset/Images/banner5.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .uk-slideshow-items {
     height: 300px;
     /* Adjust the height as needed */

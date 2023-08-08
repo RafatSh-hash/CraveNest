@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Asset/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./UIKit/uikit.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <title>Crave Nest</title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+</head>
+
+
+<body>
+    <!-- headerSection -->
+
+    <header class="relative">
+        <!-- navSection -->
+
+        <nav class="flex absolute w-full justify-between px-5 z-10">
+            <div class="h-14">
+                <img class="w-full h-full" src="./Asset/Images/Logo.png" alt="">
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="text-white font-semibold hidden sm:flex">
+                    <a href="./index.html" class="mx-2">Home</a>
+                    <a href="#" class="mx-2" target="_blank">Our Menu</a>
+                    <a href="#" class="mx-2" target="_blank">Our Shop</a>
+                    <a href="#" class="mx-2 lg:inline md:hidden sm:hidden max-[425px]:hidden" target="_blank">Contact
+                        Us</a>
+                    <a href="#" class="mx-2 lg:inline md:hidden sm:hidden max-[425px]:hidden"
+                        target="_blank">Dashboard</a>
+                    <a href="#" class="mx-2" target="_blank">Sign Out</a>
+                </div>
+                <div class="w-10 h-10 mx-3 lg:block md:block hidden">
+                    <img class="w-full h-full" src="./Asset/Images/user.png" alt="">
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hamburger Menu -->
+        <button id="hamburger" class="lg:hidden md:hidden sm:flex absolute right-2 p-2 z-20">
+            <div class="w-10 h-10">
+                <img class="w-full h-full" src="./Asset/Images/burger.png" alt="">
+            </div>
+        </button>
+
+        <!-- Navigation Overlay -->
+        <div id="navOverlay"
+            class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 justify-center items-center z-10">
+            <div class="text-white font-semibold text-center navA">
+                <a href="./index.html" class="block my-3 mt-2">Home</a>
+                <a href="./ourMenu.html" class="block my-3 mt-2">Our Menu</a>
+                <a href="#" class="block my-3 mt-2">Our Shop</a>
+                <a href="#" class="block my-3 mt-2">Contact Us</a>
+                <a href="#" class="block my-3 mt-2">Dashboard</a>
+                <a href="#" class="block my-3 mt-2">Sign Out</a>
+            </div>
+        </div>
+
+        <!-- carouselSection -->
+
+        <div id="menuContainer1" class="text-black border-2 border-black">
+
+            <div class="px-5 md:px-10 lg:px-24 py-20 text-black text-center ">
+                <div class="bg-black bg-opacity-30 rounded-md p-14 ">
+                    <h1 class="text-3xl md:text-4xl lg:text-6xl my-5 text-white">Our Menu</h1>
+                    <p class="text-xl text-white">Explore and Choose your favorite dish</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- todaySpecialSection -->
+    <div class="w-[90%] md:w-10/12 lg:w-9/12 mx-auto mt-10 md:mt-14 lg:mt-20 p-5">
+        <div>
+            <p class="text-center text-yellow-500">
+                --Don't Miss out--
+            </p>
+            <h1
+                class="w-60 md:w-56 lg:w-96 mx-auto text-center text-2xl md:text-2xl lg:text-4xl border-t-2 border-b-2 border-gray-200 py-3 px-4 mt-3  md:mt-10 lg:mt-14 ">
+                Todays Specials
+            </h1>
+        </div>
+
+
+        <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center mt-10  md:mt-14 lg:mt-20">
+            <div class="w-full md:w-[50%] lg:w-[50%]">
+                <div class="flex justify-evenly items-center my-5">
+                    <div
+                        class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                    </div>
+                    <div class="px-3">
+                        <h3 class="text-xl">
+                            ROAST DUCK BREAST ------------------
+                        </h3>
+                        <p class="text-sm ">
+                            Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-yellow-500 -mt-3">$14.5</p>
+                    </div>
+                </div>
+                <div class="flex justify-evenly items-center my-5">
+                    <div
+                        class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                    </div>
+                    <div class="px-3">
+                        <h3 class="text-xl">
+                            ESCALOPE DE VEAU ------------------
+                        </h3>
+                        <p class="text-sm ">
+                            Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-yellow-500 -mt-3">$14.5</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-full md:w-[50%] lg:w-[50%] mx-5">
+                <div class="flex justify-evenly items-center my-5">
+                    <div
+                        class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                    </div>
+                    <div class="px-3">
+                        <h3 class="text-xl">
+                            TUNA NIÇOISE ------------------
+                        </h3>
+                        <p class="text-sm ">
+                            Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-yellow-500 -mt-3">$14.5</p>
+                    </div>
+                </div>
+                <div class="flex justify-evenly items-center my-5">
+                    <div
+                        class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                    </div>
+                    <div class="px-3">
+                        <h3 class="text-xl">
+                            CHICKEN AND WALNUT SALAD ---------------
+                        </h3>
+                        <p class="text-sm ">
+                            Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-yellow-500 -mt-3">$14.5</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="w-44 mx-auto my-5">
+            <button
+                class="bg-gray-100  w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-yellow-400 transition-all duration-500 hover:bg-black"
+                type="submit">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="./UIKit/uikit.min.js"></script>
+    <script src="./utility.js"></script>
+</body>
+
+</html>
