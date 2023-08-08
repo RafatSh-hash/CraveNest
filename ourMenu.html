@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <!-- carouselSection -->
+        <!-- bannerSection -->
 
         <div id="menuContainer1" class="text-black border-2 border-black">
 
@@ -88,7 +88,7 @@
                 --Don't Miss out--
             </p>
             <h1
-                class="w-60 md:w-56 lg:w-96 mx-auto text-center text-2xl md:text-2xl lg:text-4xl border-t-2 border-b-2 border-gray-200 py-3 px-4 mt-3  md:mt-10 lg:mt-14 ">
+                class="w-60 md:w-60 lg:w-96 mx-auto text-center text-2xl md:text-2xl lg:text-4xl border-t-2 border-b-2 border-gray-200 py-3 px-4 mt-3  md:mt-10 lg:mt-14 ">
                 Todays Specials
             </h1>
         </div>
@@ -173,9 +173,676 @@
         </div>
         <div class="w-44 mx-auto my-5">
             <button
-                class="bg-gray-100  w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-yellow-400 transition-all duration-500 hover:bg-black"
-                type="submit">Add to Cart</button>
+                class="bg-gray-100 border-t-2 border-r-2 border-l-2 w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-black transition-all duration-500 hover:bg-black btn"
+                type="submit" onclick="my_modal_1.showModal()">Order Now!</button>
+            <dialog id="my_modal_1" class="modal rounded-lg">
+                <form method="dialog" class="modal-box flex flex-col justify-center items-center p-4">
+                    <div class="h-14 w-56 mx-auto">
+                        <img class="w-full h-full" src="./Asset/Images/Logo.png" alt="">
+                    </div>
+                    <div class="w-[80%] mx-auto flex flex-col items-center space-y-4 my-5">
+                        <select
+                            class="py-2 w-full max-w-xs rounded-lg focus:outline-none focus:ring focus:border-blue-300">
+                            <option disabled selected>Pick the favorite!</option>
+                            <option>Roasted Duck Breast</option>
+                            <option>ESCALOPE DE VEAU</option>
+                            <option>TUNA NIÇOISE</option>
+                            <option>CHICKEN AND WALNUT SALAD</option>
+                        </select>
+                        <textarea
+                            class="textarea rounded-lg textarea-bordered focus:outline-none focus:ring focus:border-blue-300"
+                            placeholder="Add your extra"></textarea>
+                    </div>
+                    <div class="modal-action mt-4 flex gap-2">
+                        <button
+                            class="btn px-3 py-2 text-center text-white bg-green-500 rounded-lg hover:bg-green-600 transition">Submit</button>
+                        <button
+                            class="btn px-3 py-2 text-center text-white bg-red-500 rounded-lg hover:bg-red-600 transition">Close</button>
+                    </div>
+                </form>
+            </dialog>
+
         </div>
+    </div>
+    <div id="menuContainer1" class="text-black border-2 border-black mt-10 md:mt-14 lg:mt-20">
+
+        <div class="px-5 md:px-10 lg:px-24 py-20 text-black text-center ">
+            <div class="bg-black bg-opacity-30 rounded-md p-14 ">
+                <h1 class="text-3xl md:text-4xl lg:text-6xl my-5 text-white">Desserts</h1>
+                <p class="text-xl text-white">Lorem Ipsum has been the industry’s standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <div
+        class="w-11/12 md:w-10/12 lg:w-9/12 mx-auto flex flex-col md:flex-row lg:flex-row justify-center items-center mt-10  md:mt-14 lg:mt-20">
+        <div class="w-full md:w-[50%] lg:w-[50%]">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROAST DUCK BREAST ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ESCALOPE DE VEAU ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-[50%] lg:w-[50%] mx-5">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        TUNA NIÇOISE ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        CHICKEN AND WALNUT SALAD ---------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROASTED PORK BELLY ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w-44 mx-auto my-5">
+        <button
+            class="bg-gray-100 border-t-2 border-r-2 border-l-2 w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-black transition-all duration-500 hover:bg-black btn"
+            type="submit" onclick="my_modal_1.showModal()">Order Now!</button>
+    </div>
+    <div id="menuContainer1" class="text-black border-2 border-black mt-10 md:mt-14 lg:mt-20">
+
+        <div class="px-5 md:px-10 lg:px-24 py-20 text-black text-center ">
+            <div class="bg-black bg-opacity-30 rounded-md p-14 ">
+                <h1 class="text-3xl md:text-4xl lg:text-6xl my-5 text-white">Pizza</h1>
+                <p class="text-xl text-white">Lorem Ipsum has been the industry’s standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <div
+        class="w-11/12 md:w-10/12 lg:w-9/12 mx-auto flex flex-col md:flex-row lg:flex-row justify-center items-center mt-10  md:mt-14 lg:mt-20">
+        <div class="w-full md:w-[50%] lg:w-[50%]">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROAST DUCK BREAST ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ESCALOPE DE VEAU ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-[50%] lg:w-[50%] mx-5">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        TUNA NIÇOISE ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        CHICKEN AND WALNUT SALAD ---------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROASTED PORK BELLY ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w-44 mx-auto my-5">
+        <button
+            class="bg-gray-100 border-t-2 border-r-2 border-l-2 w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-black transition-all duration-500 hover:bg-black btn"
+            type="submit" onclick="my_modal_1.showModal()">Order Now!</button>
+    </div>
+    <div id="menuContainer1" class="text-black border-2 border-black mt-10 md:mt-14 lg:mt-20">
+
+        <div class="px-5 md:px-10 lg:px-24 py-20 text-black text-center ">
+            <div class="bg-black bg-opacity-30 rounded-md p-14 ">
+                <h1 class="text-3xl md:text-4xl lg:text-6xl my-5 text-white">Soup</h1>
+                <p class="text-xl text-white">Lorem Ipsum has been the industry’s standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <div
+        class="w-11/12 md:w-10/12 lg:w-9/12 mx-auto flex flex-col md:flex-row lg:flex-row justify-center items-center mt-10  md:mt-14 lg:mt-20">
+        <div class="w-full md:w-[50%] lg:w-[50%]">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROAST DUCK BREAST ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ESCALOPE DE VEAU ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-[50%] lg:w-[50%] mx-5">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        TUNA NIÇOISE ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        CHICKEN AND WALNUT SALAD ---------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROASTED PORK BELLY ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w-44 mx-auto my-5">
+        <button
+            class="bg-gray-100 border-t-2 border-r-2 border-l-2 w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-black transition-all duration-500 hover:bg-black btn"
+            type="submit" onclick="my_modal_1.showModal()">Order Now!</button>
+    </div>
+    <div id="menuContainer1" class="text-black border-2 border-black mt-10 md:mt-14 lg:mt-20">
+
+        <div class="px-5 md:px-10 lg:px-24 py-20 text-black text-center ">
+            <div class="bg-black bg-opacity-30 rounded-md p-14 ">
+                <h1 class="text-3xl md:text-4xl lg:text-6xl my-5 text-white">Salad</h1>
+                <p class="text-xl text-white">Lorem Ipsum has been the industry’s standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <div
+        class="w-11/12 md:w-10/12 lg:w-9/12 mx-auto flex flex-col md:flex-row lg:flex-row justify-center items-center mt-10  md:mt-14 lg:mt-20">
+        <div class="w-full md:w-[50%] lg:w-[50%]">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROAST DUCK BREAST ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ESCALOPE DE VEAU ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-[50%] lg:w-[50%] mx-5">
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        TUNA NIÇOISE ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        CHICKEN AND WALNUT SALAD ---------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        ROASTED PORK BELLY ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+            <div class="flex justify-evenly items-center my-5">
+                <div
+                    class="w-8 h-8 md:w-14 md:h-14 lg:w-20 lg:h-20 bg-gray-400 md:bg-gray-300 lg:bg-gray-200  md:rounded-tr-full md:rounded-bl-full md:rounded-br-full lg:rounded-tr-full lg:rounded-bl-full lg:rounded-br-full rounded-2xl">
+
+                </div>
+                <div class="px-3">
+                    <h3 class="text-xl">
+                        FISH PARMENTIER ------------------
+                    </h3>
+                    <p class="text-sm ">
+                        Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce
+                    </p>
+                </div>
+                <div>
+                    <p class="text-yellow-500 -mt-3">$14.5</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="w-44 mx-auto my-5">
+        <button
+            class="bg-gray-100 border-t-2 border-r-2 border-l-2 w-full px-3 py-2 rounded-lg text-yellow-500 border-b-4 border-black transition-all duration-500 hover:bg-black btn"
+            type="submit" onclick="my_modal_1.showModal()">Order Now!</button>
     </div>
 
     <script src="./UIKit/uikit.min.js"></script>

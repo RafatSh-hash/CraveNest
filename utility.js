@@ -20,3 +20,15 @@ function updatePercent() {
   }  
 }
 updatePercent();
+
+const modal = document.getElementById("my_modal_1");
+const closeModalButton = document.getElementById("closeModalButton");
+
+closeModalButton.addEventListener("click", () => {
+    const modalContent = modal.querySelector(".modal-box");
+    modalContent.classList.add("closing");
+    setTimeout(() => {
+        modal.close();
+        modalContent.classList.remove("closing");
+    }, 300); // Adjust the timing to match your desired animation duration
+});
